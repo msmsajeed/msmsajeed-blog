@@ -22,7 +22,6 @@ body {
     100% { opacity: 1; transform: translateY(0); }
 }
 
-/* Header */
 header {
     text-align: center;
     margin-bottom: 50px;
@@ -58,7 +57,6 @@ nav a:hover {
     background: #2980b9;
 }
 
-/* Sections */
 .intro, .blog {
     max-width: 800px;
     margin: 0 auto 40px auto;
@@ -69,25 +67,6 @@ nav a:hover {
     font-size: 2em;
     margin-bottom: 20px;
     color: #2c3e50;
-}
-
-/* Blog Post */
-.post {
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: left;
-}
-
-.post h3 {
-    color: #2980b9;
-    margin-bottom: 10px;
-}
-
-.post p {
-    color: #555;
 }
 
 .post {
@@ -106,19 +85,15 @@ nav a:hover {
     box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.4);
 }
 
-
-.glass {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+.post h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
 }
 
+.post p {
+    color: #555;
+}
 
-/* Footer */
 footer {
     text-align: center;
     font-size: 0.9em;
